@@ -1,0 +1,130 @@
+.general-container {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 1200px;
+}
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    border: 20px solid black;
+    background-color: lightgreen ;
+    justify-content: space-evenly;
+}
+.logo {
+    background-color: rgb(223, 115, 115);
+    padding: 10px;
+    margin: 10px;
+    flex-grow: 1;
+}
+.nav {
+    background-color: rgb(223, 115, 115);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-grow: 5;
+}
+.social {
+    background-color: rgb(223, 115, 115);
+    padding: 10px;
+    margin: 10px;
+    flex-grow: 1;
+}
+.banner-container {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: orange;
+    border-bottom: 20px solid black;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.banner {
+    background-color: yellow;
+    padding: 10px;
+    flex-grow: 1 ;
+    font-size: x-large;
+    font-weight: bold;
+}
+.middle-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+  .left-container {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: lightskyblue;
+    padding: 10px;
+    border: 20px solid black;
+    align-items: start;
+    justify-content: space-between;
+    width: 80%;
+}
+  .article1 {
+    background-color: lightcoral;
+    margin: 5px;
+    padding: 10px;
+    flex-basis: 45%;
+}
+  .article2 {
+    background-color: lightcoral;
+    margin: 5px;
+    padding: 10px;
+    flex-basis: 45%;
+}
+  .article3 {
+    background-color: lightcoral;
+    margin: 5px;
+    padding: 10px;
+    flex-basis: 45%;
+}
+  .article4 {
+    background-color: lightcoral;
+    margin: 5px;
+    padding: 10px;
+    flex-basis: 45%;
+}
+  .navigacion {
+    background-color: chartreuse;
+    margin: 5px;
+    padding: 10px;
+    flex: 1;
+  }
+  .right-container {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: lightpink;
+    padding: 10px;
+    border-bottom: 20px solid black;
+    border-top: 20px solid black;
+    border-right: 20px solid black;
+    align-items: start;
+    width: 15%;
+   
+}
+  .publicidad1 {
+    background-color: violet;
+    padding: 10px;
+    flex: 2;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+.publicidad2 {
+    background-color: violet;
+    padding: 10px;
+    flex: 2;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+.footer-container {
+    background-color: rgb(244, 212, 158);
+    border: 20px solid black;
+    display: flex;
+}
+.pie {
+    padding: 10px;
+}
